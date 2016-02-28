@@ -35,6 +35,6 @@ class Game:
         for x in [-1, 0, 1]:
             for y in [-1, 0, 1]:
                 if not x == y == 0 \
-                        and self.generation[(row + x) % self.config.width][(col + y) % self.config.height]:
+                        and self.generation[(row + x) % self.config.height][(col + y) % self.config.width]:
                     count += 1
         return count

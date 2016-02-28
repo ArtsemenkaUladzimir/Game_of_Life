@@ -8,6 +8,7 @@ from matplotlib import animation
 def animate(game):
     fig = plt.figure()
     ax = plt.axes(xlim=(-1, game.config.width), ylim=(-1, game.config.height))
+    ax.xaxis.tick_top()
     plt.gca().invert_yaxis()
     line, = ax.plot([], [], 'g^')
 
