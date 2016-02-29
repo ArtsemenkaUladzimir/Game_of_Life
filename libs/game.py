@@ -1,4 +1,4 @@
-from config_parser import ConfigParser
+from libs.config_parser import ConfigParser
 
 
 class Game:
