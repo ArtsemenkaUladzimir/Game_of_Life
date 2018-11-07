@@ -8,4 +8,4 @@ Launch guide:
 python main.py resources/shotgun.json
 ```
 
-![Screenshot](https://github.com/vinfinit/Game_of_Life/raw/master/screenshots/image.png "Screenshot")
+![Screenshot](https://github.com/vinfinit/Game_of_Life/raw/master/screenshots/shotgun.gif "Screenshot")
